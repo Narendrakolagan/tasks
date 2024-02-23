@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+
+.task-heading {
+  color: #f3aa4e;
+}
+
+.create-container {
+  background-color: #131213;
+  color: white;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.text-input {
+  height: 30px;
+  width: 250px;
+  outline: none;
+}
+
+.select-input {
+  height: 30px;
+  width: 250px;
+  outline: none;
+}
+
+.text-input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.option-input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.add-btn {
+  background-color: #f3aa4e;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  margin-top: 20px;
+}
+
+.task-display-container {
+  background-color: #000000;
+  width: 60%;
+  height: 100%;
+}
+.list-item {
+  list-style-type: none;
+}
+.list-btn {
+  height: 30px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid #ffffff;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+.list-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.no-tasks-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+.no-task-text {
+  font-size: 25px;
+}
